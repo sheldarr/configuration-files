@@ -1,0 +1,1 @@
+start .\etlded.exe +exec etl_server.cfg
