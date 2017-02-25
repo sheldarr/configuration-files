@@ -8,6 +8,7 @@
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 
+POWERLEVEL9K_RAM_ELEMENTS="ram_free"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status background_jobs context dir rbenv vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(load ram time)
 POWERLEVEL9K_MODE='awesome-fontconfig'
