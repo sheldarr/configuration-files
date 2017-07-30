@@ -1,0 +1,12 @@
+name: main
+root: ~/
+
+windows:
+  - projects:
+      layout: tiled
+      panes:
+        - cd $HOME
+        - cd $HOME/Projects
+        - cd $HOME/Projects
+        - htop
+  - downloads: cd $HOME/Downloads
