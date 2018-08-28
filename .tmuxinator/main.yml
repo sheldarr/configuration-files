@@ -2,11 +2,21 @@ name: main
 root: ~/
 
 windows:
-  - projects:
-      layout: tiled
-      panes:
-        - cd $HOME
-        - cd $HOME/Projects
-        - cd $HOME/Projects
-        - htop
-  - downloads: cd $HOME/Downloads
+  - dashboard:
+    layout: tiled
+    panes:
+      - htop
+      - cd $HOME
+      - cd $HOME
+      - cd $HOME
+      - cd $HOME
+      - cd $HOME
+  - projects: 
+    layout: tiled
+    panes:
+      - htop
+      - cd $HOME
+      - cd $HOME
+      - cd $HOME
+      - cd $HOME
+      - cd $HOME
