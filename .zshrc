@@ -8,7 +8,6 @@ plugins=(
     npm
     yarn
     tmux
-    dotenv
     docker
     httpie
 )
