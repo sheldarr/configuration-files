@@ -1,0 +1,17 @@
+[user]
+    name = 
+    email = 
+[push]
+    default = simple
+[core]
+    editor = code --wait
+[diff]
+    tool = code
+[difftool]
+    prompt = false
+[difftool "code"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED%
