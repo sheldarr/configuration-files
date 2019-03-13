@@ -16,7 +16,8 @@ source $ZSH/oh-my-zsh.sh
 
 bindkey "^[[D" backward-word
 bindkey "^[[C" forward-word
-bindkey "\C-H" backward-kill-word
+bindkey "^[[3;5~" kill-word
+bindkey "^H" backward-kill-word
 
 export EDITOR="code"
 
