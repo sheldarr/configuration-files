@@ -7,6 +7,8 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=7"
 plugins=(
     git
     command-not-found
+    colored-man-pages
+    colorize
     npm
     yarn
     tmux
