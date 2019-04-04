@@ -2,6 +2,8 @@ export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="dracula"
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=7"
+
 plugins=(
     git
     command-not-found
@@ -10,6 +12,8 @@ plugins=(
     tmux
     docker
     httpie
+    zsh-autosuggestions
+    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
