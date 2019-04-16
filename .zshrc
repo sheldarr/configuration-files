@@ -8,11 +8,12 @@ plugins=(
     git
     command-not-found
     colored-man-pages
-    colorize
     npm
     yarn
     tmux
     docker
+    docker-compose
+    kubectl
     httpie
     zsh-autosuggestions
     zsh-syntax-highlighting
