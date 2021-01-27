@@ -17,3 +17,5 @@
     cmd = code --wait $MERGED%
 [credential]
     helper = store
+[pull]
+	rebase = true
