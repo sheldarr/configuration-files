@@ -14,6 +14,7 @@ plugins=(
     docker
     docker-compose
     kubectl
+    helm
     httpie
     zsh-autosuggestions
     zsh-syntax-highlighting
